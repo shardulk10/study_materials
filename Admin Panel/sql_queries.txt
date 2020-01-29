@@ -1,0 +1,9 @@
+UPDATE
+    tbl_brands
+SET
+    image_path = REPLACE(image_path, 'demo/admin_panel', 'changes_1_Jan_2020');
+    
+UPDATE
+    tbl_brands
+SET
+    image_path = REPLACE(image_path, 'shardulkulkarni.com', 'maximaventuresllp.com');    
